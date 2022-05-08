@@ -29,7 +29,7 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Evolution flags
-WITH_GAPPS := true
+TARGET_USES_MINI_GAPPS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
