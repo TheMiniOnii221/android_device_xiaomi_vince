@@ -96,6 +96,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml
 
+
+# Apex
+PRODUCT_COMPRESSED_APEX := false
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
