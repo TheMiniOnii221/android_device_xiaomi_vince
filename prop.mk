@@ -190,7 +190,6 @@ debug.hwui.renderer=opengl \
 debug.renderengine.backend=threaded \
 debug.sdm.support_writeback=0 \
 debug.enable.sglscale=1 \
-debug.hwui.use_buffer_age=false \
 ro.opengles.version=196610 \
 ro.hardware.egl=adreno \
 ro.hardware.vulkan=adreno
