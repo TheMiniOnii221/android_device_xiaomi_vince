@@ -98,13 +98,6 @@ persist.vendor.service.bdroid.sibs=false \
 vendor.qcom.bluetooth.soc=smd \
 ro.bluetooth.hfp.ver=1.7
 
-# Blur
-PRODUCT_PRODUCT_PROPERTIES += \
-ro.surface_flinger.supports_background_blur=0 \
-ro.sf.blurs_are_expensive=0 \
-persist.sys.sf.disable_blurs=1 \
-ro.launcher.blur.appLaunch=0
-
 # Boot
 PRODUCT_VENDOR_PROPERTIES += \
 sys.vendor.shutdown.waittime=500
