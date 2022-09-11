@@ -522,7 +522,6 @@ PRODUCT_PACKAGES += \
     libwifi-hal-qcom \
     libwifi-hal-ctrl \
     WifiOverlay \
-    TetheringConfigOverlay \
     wpa_supplicant \
     wpa_supplicant.conf \
     android.hardware.tetheroffload.config@1.0.vendor \
