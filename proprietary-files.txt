@@ -1128,6 +1128,9 @@ system_ext/lib64/libembmsmmparser_lite.so|243fb26fc032b920060708af4e4b3c9b9fd280
 system_ext/lib64/libembmssqlite.so|b76a706caf1b0b354ff95398b17130bc8ddc05b9
 system_ext/lib64/libembmstinyxml.so|5a998ab8d31e76ccf50a962c493d800483e03ebf
 
+# Radio (Telephony) - from coral-user 13 TP1A.220905.004 8927612 release-keys
+-system_ext/app/datastatusnotification/datastatusnotification.apk|11fbefeee95bdfa59803cfea05cbca7aaf880124
+
 # Radio (IMS) - from LA.UM.9.6.3.r1-06200-89xx.0
 -system_ext/app/imssettings/imssettings.apk|f2ccb6c22af9eaa6c16c9110db2ebe0850b0dc42
 vendor/bin/imsdatadaemon|625ef0ec8b1cdab04f90b49d01ca994c76fab592
