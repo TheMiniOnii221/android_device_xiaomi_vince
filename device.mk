@@ -92,11 +92,6 @@ PRODUCT_PACKAGES += \
     AntHalService \
     libantradio
 
-# APN
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml
-
-
 # Apex
 PRODUCT_COMPRESSED_APEX := false
 
