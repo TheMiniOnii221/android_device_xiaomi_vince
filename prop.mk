@@ -26,8 +26,8 @@ persist.vendor.audio.fluence.voicecall=true \
 persist.vendor.audio.fluence.voicerec=false \
 ro.vendor.audio.sdk.fluencetype=fluence \
 persist.vendor.audio.hw.binder.size_kbyte=1024 \
-persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac-aptxadaptive \
 ro.config.media_vol_steps=25 \
+ro.config.vc_call_vol_steps=6 \
 vendor.audio.flac.sw.decoder.24bit=true \
 vendor.audio.hal.boot.timeout.ms=20000 \
 vendor.audio.offload.buffer.size.kb=64 \
@@ -95,7 +95,11 @@ vendor.audio.feature.incall_music.enable=true
 PRODUCT_VENDOR_PROPERTIES += \
 persist.vendor.service.bdroid.sibs=false \
 vendor.qcom.bluetooth.soc=smd \
-ro.bluetooth.hfp.ver=1.7
+persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac \
+persist.vendor.bt.a2dp_offload_cap=sbc-aac-aptx-aptxhd-ldac \
+persist.vendor.btstack.enable.splita2dp=true \
+ro.bluetooth.a2dp_offload.supported=true \
+persist.bluetooth.a2dp_offload.disabled=true
 
 # Bluetooth Profiles
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
