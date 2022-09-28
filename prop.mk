@@ -122,8 +122,10 @@ bluetooth.hardware.power.operating_voltage_mv=3300
 
 # Blur
 PRODUCT_PRODUCT_PROPERTIES += \
-ro.launcher.blur.appLaunch=0 \
-ro.surface_flinger.supports_background_blur=1
+ro.surface_flinger.supports_background_blur=0 \
+ro.sf.blurs_are_expensive=0 \
+persist.sys.sf.disable_blurs=1 \
+ro.launcher.blur.appLaunch=0
 
 # Boot
 PRODUCT_VENDOR_PROPERTIES += \
